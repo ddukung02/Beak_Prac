@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d816b430-f740-4536-b20a-8970fb6dcc55" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Array_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Array_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loop_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loop_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loop/Loop_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loop/Loop_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loop/Loop_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loop/Loop_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loop/Loop_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loop/Loop_9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -62,6 +71,8 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true",
+    "애플리케이션.Array_1.executor": "Run",
+    "애플리케이션.Array_2.executor": "Run",
     "애플리케이션.Loop_10.executor": "Run",
     "애플리케이션.Loop_11.executor": "Run",
     "애플리케이션.Loop_6.executor": "Run",
@@ -87,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1725670249578</updated>
       <workItem from="1725670250667" duration="15000" />
-      <workItem from="1725841132776" duration="8001000" />
+      <workItem from="1725841132776" duration="14733000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />
@@ -113,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725846030596</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1725850026773</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725850026773</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

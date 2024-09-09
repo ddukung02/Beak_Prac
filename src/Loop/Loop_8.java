@@ -1,10 +1,12 @@
+package Loop;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.IOException;
 
-public class Loop_6 {
+public class Loop_8 {
     public static void main(String[] args) {
         try {
             // BufferedReader와 BufferedWriter 선언
@@ -22,7 +24,7 @@ public class Loop_6 {
                 int B = Integer.parseInt(input[1]);
 
                 // 결과를 버퍼에 저장
-                bw.write((A + B) + "\n");
+                bw.write( "Case #"+(i+1)+": "+A+" + "+B+" = "+(A + B) + "\n");
             }
 
             // 출력 버퍼를 모두 출력 (flush)
