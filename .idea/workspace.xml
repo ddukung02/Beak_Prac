@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d816b430-f740-4536-b20a-8970fb6dcc55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Loop_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d816b430-f740-4536-b20a-8970fb6dcc55" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/src/Loop_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Loop_9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loop_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loop_6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,10 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true",
-    "애플리케이션.Loop_6.executor": "Run"
+    "애플리케이션.Loop_6.executor": "Run",
+    "애플리케이션.Loop_7.executor": "Run",
+    "애플리케이션.Loop_8.executor": "Run",
+    "애플리케이션.Loop_9.executor": "Run"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -84,11 +86,24 @@
       <option name="presentableId" value="Default" />
       <updated>1725670249578</updated>
       <workItem from="1725670250667" duration="15000" />
-      <workItem from="1725841132776" duration="3107000" />
+      <workItem from="1725841132776" duration="3740000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1725844673532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725844673532</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
 </project>
