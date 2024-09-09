@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d816b430-f740-4536-b20a-8970fb6dcc55" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/Loop_10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loop_11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,7 @@
     "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.Loop_10.executor": "Run",
+    "애플리케이션.Loop_11.executor": "Run",
     "애플리케이션.Loop_6.executor": "Run",
     "애플리케이션.Loop_7.executor": "Run",
     "애플리케이션.Loop_8.executor": "Run",
@@ -86,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1725670249578</updated>
       <workItem from="1725670250667" duration="15000" />
-      <workItem from="1725841132776" duration="4500000" />
+      <workItem from="1725841132776" duration="8001000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />
@@ -104,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725845234936</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1725846030596</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725846030596</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
