@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d816b430-f740-4536-b20a-8970fb6dcc55" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/src/Array/Array_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Array_7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Array_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Array_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Array_5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ddukung02"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ddukung02&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ddukung02/Loop_Prac.git",
-    "accountId": "f9c9cc1d-0ea8-4cc5-aae2-8985d4bbaa76"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ddukung02/Loop_Prac.git&quot;,
+    &quot;accountId&quot;: &quot;f9c9cc1d-0ea8-4cc5-aae2-8985d4bbaa76&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -67,6 +69,8 @@
     "애플리케이션.Array_2.executor": "Run",
     "애플리케이션.Array_4.executor": "Run",
     "애플리케이션.Array_5.executor": "Run",
+    "애플리케이션.Array_6.executor": "Run",
+    "애플리케이션.Array_7.executor": "Run",
     "애플리케이션.Loop_10.executor": "Run",
     "애플리케이션.Loop_11.executor": "Run",
     "애플리케이션.Loop_6.executor": "Run",
@@ -92,7 +96,9 @@
       <option name="presentableId" value="Default" />
       <updated>1725670249578</updated>
       <workItem from="1725670250667" duration="15000" />
-      <workItem from="1725841132776" duration="23494000" />
+      <workItem from="1725841132776" duration="25813000" />
+      <workItem from="1725871948964" duration="1000" />
+      <workItem from="1725926875911" duration="5949000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />
@@ -150,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725862810834</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1725867814921</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725867814921</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
