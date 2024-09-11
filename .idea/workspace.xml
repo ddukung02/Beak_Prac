@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d816b430-f740-4536-b20a-8970fb6dcc55" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/src/Array/Array_8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,37 +46,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/User/Desktop/Practice/src/Main.java",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true",
-    "애플리케이션.Array_1.executor": "Run",
-    "애플리케이션.Array_2.executor": "Run",
-    "애플리케이션.Array_4.executor": "Run",
-    "애플리케이션.Array_5.executor": "Run",
-    "애플리케이션.Array_6.executor": "Run",
-    "애플리케이션.Array_7.executor": "Run",
-    "애플리케이션.Loop_10.executor": "Run",
-    "애플리케이션.Loop_11.executor": "Run",
-    "애플리케이션.Loop_6.executor": "Run",
-    "애플리케이션.Loop_7.executor": "Run",
-    "애플리케이션.Loop_8.executor": "Run",
-    "애플리케이션.Loop_9.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/Desktop/Practice/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.Array_1.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Array_2.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Array_4.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Array_5.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Array_6.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Array_7.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Array_8.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Loop_10.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Loop_11.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Loop_6.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Loop_7.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Loop_8.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Loop_9.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -95,7 +97,8 @@
       <workItem from="1725670250667" duration="15000" />
       <workItem from="1725841132776" duration="25813000" />
       <workItem from="1725871948964" duration="1000" />
-      <workItem from="1725926875911" duration="6618000" />
+      <workItem from="1725926875911" duration="24049000" />
+      <workItem from="1726013885911" duration="9397000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />
@@ -169,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725936468474</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1725937070062</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725937070062</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
