@@ -11,25 +11,24 @@ public class Array_8 {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
             // 나머지를 저장할 배열 선언
-            int[] remain = new int[10];
+            int[] remain = new int[11];
             int count = 0;
-
             // 10개의 숫자를 입력받고, 42로 나눈 나머지를 저장
-            for (int i = 0; i < 10; i++) {
+            for (int i = 1; i < 11; i++) {
                 int num = Integer.parseInt(br.readLine());
                 remain[i] = num % 42;
             }
 
             // 중복을 확인하여 서로 다른 나머지 개수를 세기 위한 반복문
-            for (int i = 0; i < 10; i++) {
-                boolean isUnique = true;  // 나머지가 중복되었는지 확인하는 변수
-                for (int j = 0; j < i; j++) {  // 현재까지의 값을 비교
+            for (int i = 0; i < 11; i++) {
+                boolean unique = true;
+                for (int j = 0; j < i; j++) {
                     if (remain[i] == remain[j]) {
-                        isUnique = false;  // 중복된 값이 있으면 false로 설정
+                        unique = false;
                         break;
                     }
                 }
-                if (isUnique) {  // 중복되지 않은 값일 경우 count 증가
+                if (unique) {
                     count++;
                 }
             }
