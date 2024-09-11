@@ -14,21 +14,37 @@ public class Array_9 {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-            boolean[] arr = new boolean[31];
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            int N = Integer.parseInt(st.nextToken());
+            int M = Integer.parseInt(st.nextToken());
 
-            for (int i = 1; i < 29; i++) {
-                int N = Integer.parseInt(br.readLine());
-                arr[N]=true;
+            int[] arr = new int[N+1];
+            for (int i = 1; i < N+1; i++) {
+                arr[i] = i;
             }
 
-            for (int i = 1; i < 31; i++) {
-                if (arr[i] == false) {
-                    bw.write(i + "\n");
+            int A,B;
+            int[] temp = new int[N+1];
+            for (int i = 1; i < N+1; i++) {
+                temp[i] = arr[i];
+            }
+            for (int i = 1; i < M+1; i++) {
+                StringTokenizer st1 = new StringTokenizer(br.readLine());
+                A=Integer.parseInt(st1.nextToken());
+                B=Integer.parseInt(st1.nextToken());
+
+                for (int j = A; j < B+1; j++) {
+                    temp[j]=arr[B+A-j];
+                }
+
+                for (int j = 1; j < N+1; j++) {
+                    arr[j]=temp[j];
                 }
             }
 
-
-
+            for (int i = 1; i < N+1; i++) {
+                bw.write(arr[i]+" ");
+            }
             bw.flush();
             br.close();
             bw.close();
