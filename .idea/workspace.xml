@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d816b430-f740-4536-b20a-8970fb6dcc55" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/Step_String/String_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Step_String/String_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Step_String/String_6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,8 @@
     "애플리케이션.String_2.executor": "Run",
     "애플리케이션.String_3.executor": "Run",
     "애플리케이션.String_4.executor": "Run",
-    "애플리케이션.String_5.executor": "Run"
+    "애플리케이션.String_5.executor": "Run",
+    "애플리케이션.String_6.executor": "Run"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -105,7 +107,8 @@
       <workItem from="1725871948964" duration="1000" />
       <workItem from="1725926875911" duration="24049000" />
       <workItem from="1726013885911" duration="26726000" />
-      <workItem from="1726100118759" duration="27611000" />
+      <workItem from="1726100118759" duration="27854000" />
+      <workItem from="1726704990179" duration="14368000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />
@@ -251,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726130286819</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1726130883303</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726130883303</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

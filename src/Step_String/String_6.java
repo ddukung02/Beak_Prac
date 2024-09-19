@@ -2,21 +2,25 @@ package Step_String;
 
 import java.io.*;
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class String_6 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try {
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int N = sc.nextInt();
-        sc.nextLine();
-        String M = sc.nextLine();
-        char array[];
-        array = M.toCharArray();
-        int sum = 0;
-        for (int i = 0; i < N; i++) {
-            sum += array[i]-'0';
+            String S = br.readLine();
+
+            for (char i = 'a'; i <= 'z'; i++) {
+                bw.write(S.indexOf(i)+" ");
+            }
+
+            bw.flush();
+            br.close();
+            bw.close();
+        } catch (
+                IOException e) {
+            e.printStackTrace();
         }
-        System.out.println(sum);
     }
 }
