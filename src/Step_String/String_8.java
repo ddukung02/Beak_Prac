@@ -23,5 +23,7 @@ public class String_8 {
             // StringTokenizer의 countTokens() 메서드를 사용하여 단어의 개수를 출력합니다.
             System.out.println(st.countTokens());
         }
+        br.close();
+
     }
 }
