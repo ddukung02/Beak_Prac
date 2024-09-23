@@ -13,10 +13,46 @@ public class String_10 {
 
             StringTokenizer st = new StringTokenizer(br.readLine());
             String S = st.nextToken();
-            char[] a;
-            a = S.toCharArray();
+            char letter;
+            char letter2='A';
+            int number= 2;
+            int count =0;
+            for (int i = 0; i < S.length(); i++) {
+                letter = S.charAt(i);
+                if(letter=='Z'||letter=='Y'){
+                    number=9;
+                    count+=(number+1);
+                    continue;
+                }
+                letter2='A';
+                outerLoop:
+                for (int j = 2; j < 10; j++) {
+                    if (j==7||j==9){
+                        for (int k=0;k<4;k++){
+                            if (letter==letter2+k){
+                                number=j;
 
-            System.out.println();
+                                letter2='A';
+                                break outerLoop;
+                            }
+                        }
+                        letter2 += 4;
+                    }else {
+                        for (int k = 0; k < 3; k++) {
+                            if (letter == letter2 + k) {
+                                number = j;
+
+                                letter2 = 'A';
+                                break outerLoop;
+                            }
+                        }
+                        letter2 += 3;
+                    }
+                }
+                count+=(number+1);
+
+            }
+            bw.write(count+"\n");
 
             bw.flush();
             bw.close();
