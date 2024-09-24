@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d816b430-f740-4536-b20a-8970fb6dcc55" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/Bronze_Deep1/Deep_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bronze_Deep1/Deep_5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +77,7 @@
     "애플리케이션.Deep_2.executor": "Run",
     "애플리케이션.Deep_3.executor": "Run",
     "애플리케이션.Deep_4.executor": "Run",
+    "애플리케이션.Deep_5.executor": "Run",
     "애플리케이션.Loop_10.executor": "Run",
     "애플리케이션.Loop_11.executor": "Run",
     "애플리케이션.Loop_6.executor": "Run",
@@ -122,7 +123,7 @@
       <workItem from="1726704990179" duration="25889000" />
       <workItem from="1726790693937" duration="11950000" />
       <workItem from="1727050588345" duration="26077000" />
-      <workItem from="1727138566762" duration="10060000" />
+      <workItem from="1727138566762" duration="27625000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />
@@ -364,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727147694496</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1727149682297</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1727149682297</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
