@@ -19,12 +19,20 @@ public class Deep_2 {
             int Pawn=0;
 
             int[] chess = {King,Queen,Rook,Bishop,Knight,Pawn};
-
+            int[] answer = {1,1,2,2,2,8};
+            int[] X = new int[6];
             // 배열에 입력 값 저장
             for (int i = 0; i < chess.length; i++) {
                 chess[i] = Integer.parseInt(st.nextToken());
             }
 
+            for (int i = 0; i < chess.length; i++) {
+                X[i] = answer[i]-chess[i];
+            }
+
+            for (int i = 0; i < chess.length; i++) {
+                bw.write(X[i]+" ");
+            }
 
             bw.flush();
             bw.close();
