@@ -6,11 +6,20 @@ public class Deep_5_1 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String S = br.readLine().toUpperCase(); // 대소문자 구분 없으므로 대문자로 통일
 
+        char[] alpha = new char[26];
         int[] count = new int[26]; // 알파벳의 빈도를 저장할 배열
+
+        for (int i = 0; i < S.length(); i++) {
+            alpha[i]=(char)('A'+i);
+        }
 
         // 각 알파벳의 빈도를 카운트
         for (int i = 0; i < S.length(); i++) {
-            count[S.charAt(i) - 'A']++; // 'A'를 기준으로 인덱스 설정
+            for (int j = 0; j < 26; j++) {
+                if (S.charAt(i) == alpha[j]) {
+                    count[j]++;
+                }
+            }
         }
 
         // 가장 많이 사용된 알파벳을 찾는 과정
