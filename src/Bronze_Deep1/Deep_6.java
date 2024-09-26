@@ -24,7 +24,6 @@ public class Deep_6 {
             // 최종적으로 남은 문자열의 길이를 출력 (크로아티아 알파벳을 하나로 간주)
             System.out.println(word.length());
 
-
             bw.flush();
             bw.close();
             br.close();
